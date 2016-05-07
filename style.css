@@ -1,0 +1,27 @@
+body {
+	background-color: pink;
+}
+
+input.number {
+	text-align: center;
+}
+
+
+table { 
+	border-collapse: collapse; 
+}
+/*tr {
+	border-collapse: collapse; 
+}*/
+tr:nth-child(3) { 
+	border-bottom: solid medium black;
+}
+tr:nth-child(6) { 
+	border-bottom: solid medium black;
+}
+td:nth-child(3) {
+	border-right: solid medium black;
+}
+td:nth-child(6) {
+	border-right: solid medium black;
+}
