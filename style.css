@@ -1,18 +1,55 @@
 body {
-	background-color: pink;
+	background-color: #f4d2d2;
+	font-family: 'Acme', sans-serif;
+	/*color: white;*/
 }
-
-input.number {
+input {
 	text-align: center;
+	background-color: #f28a8a;
 }
-
-
 table { 
 	border-collapse: collapse; 
+	margin-bottom: 25px;
 }
-/*tr {
-	border-collapse: collapse; 
-}*/
+button {
+	margin: 0 10px;
+	border-radius: 0%;
+	background: #c5c9ea;
+	border: 1px solid black;
+	cursor: pointer;
+	font-size: 20px;
+
+}
+
+.diff {
+	font-size: 15px;
+	background: #c5c9ea;
+}
+
+.active {
+
+	background: #4f5ecc;
+	color: white;
+
+}
+
+button:hover {
+	background: #4f5ecc;
+	color: white;
+}
+.step {
+	border: 3px white solid;
+	width: 400px;
+	padding: 10px 0;
+}
+.message_board {
+	border: 3px black solid;
+	width: 400px;
+	padding: 10px 0;
+
+}
+
+/*adding borders */
 tr:nth-child(3) { 
 	border-bottom: solid medium black;
 }
